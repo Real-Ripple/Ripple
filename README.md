@@ -9,6 +9,13 @@
 - Non-blocking UI using Tkinter.
 - Memory-only context to avoid truncation and preserve conversational continuity.
 
+## Changes in Ripple-1.1.py
+- SYSTEM_PROMPT framed as a human-AI shared learning environment; answers user first.
+- Stopping criterion made more robust (explicit double-newline detection, role-token detection,
+  and hard new-token cap protection).
+- Prompt / memory trimming tightened to avoid crossing MAX_CONTEXT_TOKENS.
+- Minor robustness improvements and clearer comments.
+
 ## Quick Start
 
 1. **Download the repository** from GitHub using the **Download ZIP** button or clone it.  
@@ -46,3 +53,4 @@
 Install dependencies with:
 
 pip install torch transformers
+
