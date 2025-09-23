@@ -9,9 +9,8 @@
 - Non-blocking UI using Tkinter.
 - Memory-only context to avoid truncation and preserve conversational continuity.
 
-## Changes in Ripple-1.1.1.py
-- SYSTEM_PROMPT updated to encourage briefer, more conversational responses.
-- Discouraged triple backticks from being outputted by the model, to prevent formatting errors.
+## Changes in Ripple-1.1.2.py
+- Overhauled the system prompt, and memory generation system to avoid the model's context length overflowing, which led to premature termination of the generations in some cases.
 
 ## Quick Start
 
@@ -50,5 +49,6 @@
 Install dependencies with:
 
 pip install torch transformers
+
 
 
