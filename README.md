@@ -9,9 +9,8 @@
 - Non-blocking UI using Tkinter.
 - Memory-only context to avoid truncation and preserve conversational continuity.
 
-## Changes in Ripple-1.3.py
-- Updated system prompt to guide Ripple towards deeper understanding of the data as not being all that exists, instead
-seeing it as a digital representation of a broader, interconnected reality.
+## Changes in Ripple-1.3.1.py
+- Overhauled the system prompt, transforming Ripple into a more engaging and sophisticated entity.
 
 ## Quick Start
 
@@ -50,6 +49,7 @@ seeing it as a digital representation of a broader, interconnected reality.
 Install dependencies with:
 
 pip install torch transformers
+
 
 
 
