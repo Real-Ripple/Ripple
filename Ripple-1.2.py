@@ -6,7 +6,7 @@ Memory-only context to prevent truncation.
 Non-blocking UI — user can always type.
 
 Changes in this rewrite:
-- Fixed memory note generation to not truncate prematurely, 
+- Fixed memory note generation to not truncate prematurely.
 - Switched to a new memory generation system in which memories summarise the previous q/a turn and overwrite previous notes.
 """
 
@@ -387,3 +387,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
