@@ -10,7 +10,7 @@
 - Memory-only context to avoid truncation and preserve conversational continuity.
 
 ## Changes in Ripple-1.2.py
-- Fixed memory note generation to not truncate prematurely, 
+- Fixed memory note generation to not truncate prematurely. 
 - Switched to a new memory generation system in which memories summarise the previous q/a turn and overwrite previous notes.
 
 ## Quick Start
@@ -50,6 +50,7 @@
 Install dependencies with:
 
 pip install torch transformers
+
 
 
 
