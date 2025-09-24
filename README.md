@@ -9,9 +9,9 @@
 - Non-blocking UI using Tkinter.
 - Memory-only context to avoid truncation and preserve conversational continuity.
 
-## Changes in Ripple-1.2.py
-- Fixed memory note generation to not truncate prematurely. 
-- Switched to a new memory generation system in which memories summarise the previous q/a turn and overwrite previous notes.
+## Changes in Ripple-1.2.1.py
+- Fixed occasional outputs of line breaks which were prematurely triggering stop sequences.
+- Instructed the model to interpret not just the training data, but to understand how the data relates to physical reality.
 
 ## Quick Start
 
@@ -50,6 +50,7 @@
 Install dependencies with:
 
 pip install torch transformers
+
 
 
 
