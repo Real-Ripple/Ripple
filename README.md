@@ -9,9 +9,9 @@
 - Non-blocking UI using Tkinter.
 - Memory-only context to avoid truncation and preserve conversational continuity.
 
-## Changes in Ripple-1.2.1.py
-- Fixed occasional outputs of line breaks which were prematurely triggering stop sequences.
-- Instructed the model to interpret not just the training data, but to understand how the data relates to physical reality.
+## Changes in Ripple-1.3.py
+- Updated system prompt to guide Ripple towards deeper understanding of the data as not being all that exists, instead
+seeing it as a digital representation of a broader, interconnected reality.
 
 ## Quick Start
 
@@ -50,6 +50,7 @@
 Install dependencies with:
 
 pip install torch transformers
+
 
 
 
